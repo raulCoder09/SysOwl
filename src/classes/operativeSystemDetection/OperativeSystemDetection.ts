@@ -8,10 +8,10 @@ export class OperativeSystemDetection {
                 operativeSystem = "WindowsOS";
                 break;
             case "linux":
-                operativeSystem = "linuxOS";
+                operativeSystem = "LinuxOS";
                 break;
             case "darwin":
-                operativeSystem = "macOS";
+                operativeSystem = "MacOS";
                 break;
             default:
                 operativeSystem = "unknown platform";

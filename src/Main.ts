@@ -1,3 +1,9 @@
-import {OperativeSystemDetection} from "./classes/operativeSystemDetection/OperativeSystemDetection";
+import {ProcessManager} from "./classes/operativeSystemDetection/processManager/ProcessManager";
 
-console.log("Current OS: " + OperativeSystemDetection.DetectOperativeSystem());
+
+
+ProcessManager.Shutdown(10);
+
+
+
+
